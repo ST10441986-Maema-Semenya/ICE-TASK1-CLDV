@@ -1,0 +1,349 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|c:\\users\\evans\\source\\repos\\activity1.2.1\\activity1.2.1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|solutionrelative:activity1.2.1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|c:\\users\\evans\\source\\repos\\activity1.2.1\\activity1.2.1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|solutionrelative:activity1.2.1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|c:\\users\\evans\\source\\repos\\activity1.2.1\\activity1.2.1\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|solutionrelative:activity1.2.1\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|c:\\users\\evans\\source\\repos\\activity1.2.1\\activity1.2.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|solutionrelative:activity1.2.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|c:\\users\\evans\\source\\repos\\activity1.2.1\\activity1.2.1\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|solutionrelative:activity1.2.1\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|c:\\users\\evans\\source\\repos\\activity1.2.1\\activity1.2.1\\models\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|solutionrelative:activity1.2.1\\models\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|c:\\users\\evans\\source\\repos\\activity1.2.1\\activity1.2.1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|solutionrelative:activity1.2.1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|c:\\users\\evans\\source\\repos\\activity1.2.1\\activity1.2.1\\models\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|solutionrelative:activity1.2.1\\models\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|c:\\users\\evans\\source\\repos\\activity1.2.1\\activity1.2.1\\models\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|solutionrelative:activity1.2.1\\models\\viewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evans\\AppData\\Local\\Temp\\96590252-9c5c-4414-b5e1-55c58913e2c7_UniversityEnrollment (1).zip.2c7\\UniversityEnrollment\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|c:\\users\\evans\\source\\repos\\activity1.2.1\\activity1.2.1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|solutionrelative:activity1.2.1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evans\\AppData\\Local\\Temp\\74beafea-9e49-4b33-a763-5c399620672e_UniversityEnrollment (1).zip.72e\\UniversityEnrollment\\Controllers\\CoursesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evans\\AppData\\Local\\Temp\\cff1c0d2-9647-4694-b391-13c28f5dc720_UniversityEnrollment.zip.720\\UniversityEnrollment\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Controllers\\StudentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Activity1.2.1\\Controllers\\StudentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Student\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Activity1.2.1\\Views\\Student\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Student\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Activity1.2.1\\Views\\Student\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Student\\Update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Activity1.2.1\\Views\\Student\\Update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Models\\StudentEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Activity1.2.1\\Models\\StudentEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Home\\Privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Activity1.2.1\\Views\\Home\\Privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|c:\\users\\evans\\source\\repos\\activity1.2.1\\activity1.2.1\\models\\coursemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60870EB8-3563-5BA5-399F-ECBF756611F5}|Activity1.2.1\\UniversityEnrollment.csproj|solutionrelative:activity1.2.1\\models\\coursemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentModel.cs",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Models\\StudentModel.cs",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Models\\StudentModel.cs",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Models\\StudentModel.cs",
+              "RelativeToolTip": "Activity1.2.1\\Models\\StudentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T22:55:16.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Program.cs",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Program.cs",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Program.cs",
+              "RelativeToolTip": "Activity1.2.1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T00:25:21.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Activity1.2.1\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAIwF4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T18:13:57.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Activity1.2.1\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T00:33:31.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Activity1.2.1\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Activity1.2.1\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-30T14:03:53.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dtos.cs",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Models\\Dtos.cs",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Models\\Dtos.cs",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Models\\Dtos.cs",
+              "RelativeToolTip": "Activity1.2.1\\Models\\Dtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T04:55:17.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Models\\ViewModels.cs",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Models\\ViewModels.cs",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Models\\ViewModels.cs",
+              "RelativeToolTip": "Activity1.2.1\\Models\\ViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T04:54:34.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StudentEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Models\\StudentEntity.cs",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Models\\StudentEntity.cs",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Models\\StudentEntity.cs",
+              "RelativeToolTip": "Activity1.2.1\\Models\\StudentEntity.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T04:38:09.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "Activity1.2.1\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T00:33:42.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Views\\Students\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Students\\Edit.cshtml",
+              "RelativeToolTip": "Activity1.2.1\\Views\\Students\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T18:13:12.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Activity1.2.1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T00:35:45.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\Evans\\AppData\\Local\\Temp\\74beafea-9e49-4b33-a763-5c399620672e_UniversityEnrollment (1).zip.72e\\UniversityEnrollment\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\74beafea-9e49-4b33-a763-5c399620672e_UniversityEnrollment (1).zip.72e\\UniversityEnrollment\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\Evans\\AppData\\Local\\Temp\\74beafea-9e49-4b33-a763-5c399620672e_UniversityEnrollment (1).zip.72e\\UniversityEnrollment\\Controllers\\CoursesController.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\74beafea-9e49-4b33-a763-5c399620672e_UniversityEnrollment (1).zip.72e\\UniversityEnrollment\\Controllers\\CoursesController.cs [Read Only]",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAQwKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T04:32:11.58Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Activity1.2.1\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAQwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T04:32:29.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Activity1.2.1\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T00:17:00.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Evans\\AppData\\Local\\Temp\\96590252-9c5c-4414-b5e1-55c58913e2c7_UniversityEnrollment (1).zip.2c7\\UniversityEnrollment\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\96590252-9c5c-4414-b5e1-55c58913e2c7_UniversityEnrollment (1).zip.2c7\\UniversityEnrollment\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Evans\\AppData\\Local\\Temp\\96590252-9c5c-4414-b5e1-55c58913e2c7_UniversityEnrollment (1).zip.2c7\\UniversityEnrollment\\Controllers\\HomeController.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\96590252-9c5c-4414-b5e1-55c58913e2c7_UniversityEnrollment (1).zip.2c7\\UniversityEnrollment\\Controllers\\HomeController.cs [Read Only]",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T04:33:17.795Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Evans\\AppData\\Local\\Temp\\cff1c0d2-9647-4694-b391-13c28f5dc720_UniversityEnrollment.zip.720\\UniversityEnrollment\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\cff1c0d2-9647-4694-b391-13c28f5dc720_UniversityEnrollment.zip.720\\UniversityEnrollment\\Program.cs",
+              "ToolTip": "C:\\Users\\Evans\\AppData\\Local\\Temp\\cff1c0d2-9647-4694-b391-13c28f5dc720_UniversityEnrollment.zip.720\\UniversityEnrollment\\Program.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\cff1c0d2-9647-4694-b391-13c28f5dc720_UniversityEnrollment.zip.720\\UniversityEnrollment\\Program.cs [Read Only]",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T00:25:46.512Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Activity1.2.1\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T00:33:34.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Views\\Student\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "Activity1.2.1\\Views\\Student\\Delete.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T00:16:18.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CourseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Models\\CourseModel.cs",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Models\\CourseModel.cs",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Models\\CourseModel.cs",
+              "RelativeToolTip": "Activity1.2.1\\Models\\CourseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T00:14:57.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Student\\Update.cshtml",
+              "RelativeDocumentMoniker": "Activity1.2.1\\Views\\Student\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\Views\\Student\\Update.cshtml",
+              "RelativeToolTip": "Activity1.2.1\\Views\\Student\\Update.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T00:00:13.901Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

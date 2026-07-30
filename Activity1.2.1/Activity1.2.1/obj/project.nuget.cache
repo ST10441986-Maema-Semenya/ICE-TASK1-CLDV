@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "dnq9ZjZN4HY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Evans\\source\\repos\\Activity1.2.1\\Activity1.2.1\\UniversityEnrollment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Evans\\.nuget\\packages\\azure.core\\1.55.0\\azure.core.1.55.0.nupkg.sha512",
+    "C:\\Users\\Evans\\.nuget\\packages\\azure.data.tables\\12.11.0\\azure.data.tables.12.11.0.nupkg.sha512",
+    "C:\\Users\\Evans\\.nuget\\packages\\azure.identity\\1.21.0\\azure.identity.1.21.0.nupkg.sha512",
+    "C:\\Users\\Evans\\.nuget\\packages\\azure.storage.common\\12.28.0\\azure.storage.common.12.28.0.nupkg.sha512",
+    "C:\\Users\\Evans\\.nuget\\packages\\azure.storage.queues\\12.27.1\\azure.storage.queues.12.27.1.nupkg.sha512",
+    "C:\\Users\\Evans\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\10.0.3\\microsoft.bcl.asyncinterfaces.10.0.3.nupkg.sha512",
+    "C:\\Users\\Evans\\.nuget\\packages\\microsoft.extensions.azure\\1.14.0\\microsoft.extensions.azure.1.14.0.nupkg.sha512",
+    "C:\\Users\\Evans\\.nuget\\packages\\microsoft.identity.client\\4.83.1\\microsoft.identity.client.4.83.1.nupkg.sha512",
+    "C:\\Users\\Evans\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.83.1\\microsoft.identity.client.extensions.msal.4.83.1.nupkg.sha512",
+    "C:\\Users\\Evans\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "C:\\Users\\Evans\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512",
+    "C:\\Users\\Evans\\.nuget\\packages\\system.clientmodel\\1.11.0\\system.clientmodel.1.11.0.nupkg.sha512",
+    "C:\\Users\\Evans\\.nuget\\packages\\system.io.hashing\\10.0.3\\system.io.hashing.10.0.3.nupkg.sha512",
+    "C:\\Users\\Evans\\.nuget\\packages\\system.memory.data\\10.0.3\\system.memory.data.10.0.3.nupkg.sha512",
+    "C:\\Users\\Evans\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

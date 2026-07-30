@@ -1,0 +1,44 @@
+@model StudentFormViewModel
+@{
+    ViewData["Title"] = "Edit student";
+}
+<div class="page-heading">
+    <div>
+        <div class="eyebrow">Registry</div>
+        <h1>Edit <span class="tab-chip">@Model.StudentId</span></h1>
+    </div>
+</div>
+
+<div class="card">
+    <form asp-action="Edit" asp-route-id="@Model.StudentId" method="post" class="form-grid">
+        <div asp-validation-summary="ModelOnly" class="error"></div>
+        <div class="field">
+            <label>Student ID</label>
+            <input value="@Model.StudentId" disabled />
+            <input type="hidden" asp-for="StudentId" />
+        </div>
+        <div class="field">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" />
+            <span asp-validation-for="Name" class="error"></span>
+        </div>
+        <div class="field">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" type="email" />
+            <span asp-validation-for="Email" class="error"></span>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn">Save changes</button>
+            <a asp-action="Details" asp-route-id="@Model.StudentId" class="btn btn-outline">Cancel</a>
+        </div>
+    </form>
+</div>
+
+<div class="card">
+    <h3>Remove this student</h3>
+    <p class="muted">This deletes the student record permanently, including their enrolment history.</p>
+    <form asp-action="Delete" asp-route-id="@Model.StudentId" method="post"
+          onsubmit="return confirm('Delete @Model.StudentId? This cannot be undone.');">
+        <button type="submit" class="btn btn-danger">Delete student</button>
+    </form>
+</div>

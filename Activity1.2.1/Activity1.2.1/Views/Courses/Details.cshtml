@@ -1,0 +1,57 @@
+@model CourseDetailsViewModel
+@{
+    ViewData["Title"] = Model.Course.CourseName;
+    var full = Model.Course.EnrolledCount >= Model.Course.Capacity;
+}
+<div class="page-heading">
+    <div>
+        <div class="eyebrow">Course record</div>
+        <h1>@Model.Course.CourseName <span class="tab-chip">@Model.Course.Department@Model.Course.CourseCode</span></h1>
+    </div>
+    <div class="form-actions">
+        <a class="btn btn-sm btn-outline" asp-action="Roster" asp-route-department="@Model.Course.Department" asp-route-courseCode="@Model.Course.CourseCode">View roster</a>
+        <a class="btn btn-sm btn-outline" asp-action="Edit" asp-route-department="@Model.Course.Department" asp-route-courseCode="@Model.Course.CourseCode">Edit</a>
+    </div>
+</div>
+
+<div class="card">
+    <p>@(string.IsNullOrWhiteSpace(Model.Course.Description) ? "No description provided." : Model.Course.Description)</p>
+    <table class="ledger" style="margin-top:16px;">
+        <tbody>
+            <tr><td class="mono muted">Instructor</td><td>@Model.Course.InstructorName <span class="muted">(@Model.Course.InstructorId)</span></td></tr>
+            <tr><td class="mono muted">Seats</td><td><span class="seat-meter @(full ? "full" : "open")">@Model.Course.EnrolledCount / @Model.Course.Capacity @(full ? "— full" : "open")</span></td></tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="card">
+    <h3>Enrol a student</h3>
+    @if (!Model.AllStudents.Any())
+    {
+        <p class="muted">No students registered yet. <a asp-controller="Students" asp-action="Create">Register one</a> first.</p>
+    }
+    else if (full)
+    {
+        <p class="muted">This course is at full capacity — no further enrolments can be accepted.</p>
+    }
+    else
+    {
+        <form asp-controller="Courses" asp-action="Enroll" method="post" class="form-grid" style="max-width:420px;">
+            <input type="hidden" name="department" value="@Model.Course.Department" />
+            <input type="hidden" name="courseCode" value="@Model.Course.CourseCode" />
+            <div class="field">
+                <label for="studentId">Student</label>
+                <select name="studentId" id="studentId">
+                    @foreach (var s in Model.AllStudents)
+                    {
+                        <option value="@s.StudentId">@s.Name (@s.StudentId)</option>
+                    }
+                </select>
+                <div class="hint">Enrolment requests are queued and applied within a few seconds.</div>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn">Submit enrolment request</button>
+            </div>
+        </form>
+    }
+</div>

@@ -1,0 +1,50 @@
+@model List<CourseDto>
+@{
+    ViewData["Title"] = "Courses";
+}
+<div class="page-heading">
+    <div>
+        <div class="eyebrow">Catalog</div>
+        <h1>Available courses</h1>
+    </div>
+    <a asp-action="Create" class="btn">Add course</a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="empty-state">No courses yet. <a asp-action="Create">Add the first one</a>.</div>
+}
+else
+{
+    <table class="ledger">
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Title</th>
+                <th>Instructor</th>
+                <th>Seats</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var c in Model)
+        {
+            var full = c.EnrolledCount >= c.Capacity;
+            <tr>
+                <td><span class="tab-chip">@c.Department@c.CourseCode</span></td>
+                <td>
+                    <a asp-action="Details" asp-route-department="@c.Department" asp-route-courseCode="@c.CourseCode">@c.CourseName</a>
+                </td>
+                <td>@c.InstructorName</td>
+                <td>
+                    <span class="seat-meter @(full ? "full" : "open")">@c.EnrolledCount / @c.Capacity</span>
+                </td>
+                <td>
+                    <a class="btn btn-sm btn-outline" asp-action="Roster" asp-route-department="@c.Department" asp-route-courseCode="@c.CourseCode">Roster</a>
+                    <a class="btn btn-sm btn-outline" asp-action="Edit" asp-route-department="@c.Department" asp-route-courseCode="@c.CourseCode">Edit</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

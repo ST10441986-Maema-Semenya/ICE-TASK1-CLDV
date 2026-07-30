@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Dashboard</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand brand" href="/">University <span class="brand-mark">Enrollment</span></a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto site-nav">
+                        <li class="nav-item"><a class="nav-link" asp-action="Index" asp-controller="Home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-action="Index" asp-controller="Courses">Courses</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-action="Index" asp-controller="Students">Students</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container" style="padding-top: 32px;">
+        @RenderBody()
+    </div>
+
+    <footer class="text-center mt-4 site-footer">
+        <p>&copy; 2025 University Enrollment</p>
+    </footer>
+</body>
+</html>

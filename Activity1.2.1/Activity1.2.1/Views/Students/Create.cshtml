@@ -1,0 +1,35 @@
+@model StudentFormViewModel
+@{
+    ViewData["Title"] = "Register student";
+}
+<div class="page-heading">
+    <div>
+        <div class="eyebrow">Registry</div>
+        <h1>Register a student</h1>
+    </div>
+</div>
+
+<div class="card">
+    <form asp-action="Create" method="post" class="form-grid">
+        <div asp-validation-summary="ModelOnly" class="error"></div>
+        <div class="field">
+            <label asp-for="StudentId"></label>
+            <input asp-for="StudentId" placeholder="e.g. S001" />
+            <span asp-validation-for="StudentId" class="error"></span>
+        </div>
+        <div class="field">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" placeholder="e.g. Jane Doe" />
+            <span asp-validation-for="Name" class="error"></span>
+        </div>
+        <div class="field">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" type="email" placeholder="jane@example.edu" />
+            <span asp-validation-for="Email" class="error"></span>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn">Register</button>
+            <a asp-action="Index" class="btn btn-outline">Cancel</a>
+        </div>
+    </form>
+</div>

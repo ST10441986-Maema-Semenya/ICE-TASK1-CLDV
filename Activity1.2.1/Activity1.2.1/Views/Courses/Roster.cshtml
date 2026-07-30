@@ -1,0 +1,37 @@
+@model List<StudentDto>
+@{
+    var course = (CourseDto)ViewBag.Course;
+    ViewData["Title"] = $"Roster — {course.CourseName}";
+}
+<div class="page-heading">
+    <div>
+        <div class="eyebrow">Instructor view</div>
+        <h1>Roster <span class="tab-chip">@course.Department@course.CourseCode</span></h1>
+    </div>
+    <a asp-action="Details" asp-route-department="@course.Department" asp-route-courseCode="@course.CourseCode" class="btn btn-outline btn-sm">Back to course</a>
+</div>
+
+<p class="muted">@Model.Count of @course.Capacity seats filled for @course.CourseName.</p>
+
+@if (!Model.Any())
+{
+    <div class="empty-state">No students enrolled yet.</div>
+}
+else
+{
+    <table class="ledger">
+        <thead>
+            <tr><th>Student ID</th><th>Name</th><th>Email</th></tr>
+        </thead>
+        <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td class="mono">@s.StudentId</td>
+                <td><a asp-controller="Students" asp-action="Details" asp-route-id="@s.StudentId">@s.Name</a></td>
+                <td>@s.Email</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

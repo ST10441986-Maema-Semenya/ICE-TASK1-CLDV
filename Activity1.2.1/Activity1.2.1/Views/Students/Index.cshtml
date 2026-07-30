@@ -1,0 +1,36 @@
+@model List<StudentDto>
+@{
+    ViewData["Title"] = "Students";
+}
+<div class="page-heading">
+    <div>
+        <div class="eyebrow">Registry</div>
+        <h1>Students</h1>
+    </div>
+    <a asp-action="Create" class="btn">Register student</a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="empty-state">No students yet. <a asp-action="Create">Register the first one</a>.</div>
+}
+else
+{
+    <table class="ledger">
+        <thead>
+            <tr><th>Student ID</th><th>Name</th><th>Email</th><th>Enrolled in</th><th></th></tr>
+        </thead>
+        <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td class="mono">@s.StudentId</td>
+                <td><a asp-action="Details" asp-route-id="@s.StudentId">@s.Name</a></td>
+                <td>@s.Email</td>
+                <td>@s.EnrolledCourses.Count course@(s.EnrolledCourses.Count == 1 ? "" : "s")</td>
+                <td><a class="btn btn-sm btn-outline" asp-action="Edit" asp-route-id="@s.StudentId">Edit</a></td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

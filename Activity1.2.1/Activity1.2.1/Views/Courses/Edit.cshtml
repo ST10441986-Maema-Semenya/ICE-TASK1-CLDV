@@ -1,0 +1,58 @@
+@model CourseFormViewModel
+@{
+    ViewData["Title"] = "Edit course";
+}
+<div class="page-heading">
+    <div>
+        <div class="eyebrow">Catalog</div>
+        <h1>Edit <span class="tab-chip">@Model.Department@Model.CourseCode</span></h1>
+    </div>
+</div>
+
+<div class="card">
+    <form asp-action="Edit" asp-route-department="@Model.Department" asp-route-courseCode="@Model.CourseCode" method="post" class="form-grid">
+        <div asp-validation-summary="ModelOnly" class="error"></div>
+        <div class="field">
+            <label>Department / Course code</label>
+            <input value="@Model.Department@Model.CourseCode" disabled />
+            <div class="hint">Department and course code can't be changed after creation.</div>
+        </div>
+        <div class="field">
+            <label asp-for="CourseName"></label>
+            <input asp-for="CourseName" />
+            <span asp-validation-for="CourseName" class="error"></span>
+        </div>
+        <div class="field">
+            <label asp-for="InstructorId"></label>
+            <input asp-for="InstructorId" />
+            <span asp-validation-for="InstructorId" class="error"></span>
+        </div>
+        <div class="field">
+            <label asp-for="InstructorName"></label>
+            <input asp-for="InstructorName" />
+            <span asp-validation-for="InstructorName" class="error"></span>
+        </div>
+        <div class="field">
+            <label asp-for="Description"></label>
+            <textarea asp-for="Description" rows="3"></textarea>
+        </div>
+        <div class="field">
+            <label asp-for="Capacity"></label>
+            <input asp-for="Capacity" type="number" min="1" />
+            <span asp-validation-for="Capacity" class="error"></span>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn">Save changes</button>
+            <a asp-action="Details" asp-route-department="@Model.Department" asp-route-courseCode="@Model.CourseCode" class="btn btn-outline">Cancel</a>
+        </div>
+    </form>
+</div>
+
+<div class="card">
+    <h3>Remove this course</h3>
+    <p class="muted">This deletes the course record permanently. It does not un-enrol students already in it.</p>
+    <form asp-action="Delete" asp-route-department="@Model.Department" asp-route-courseCode="@Model.CourseCode" method="post"
+          onsubmit="return confirm('Delete @Model.Department@Model.CourseCode? This cannot be undone.');">
+        <button type="submit" class="btn btn-danger">Delete course</button>
+    </form>
+</div>

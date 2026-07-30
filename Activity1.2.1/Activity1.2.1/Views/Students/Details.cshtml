@@ -1,0 +1,45 @@
+@model StudentDto
+@{
+    ViewData["Title"] = Model.Name;
+    var courses = (List<CourseDto>)ViewBag.EnrolledCourses;
+}
+<div class="page-heading">
+    <div>
+        <div class="eyebrow">Student record</div>
+        <h1>@Model.Name <span class="tab-chip">@Model.StudentId</span></h1>
+    </div>
+    <a asp-action="Edit" asp-route-id="@Model.StudentId" class="btn btn-outline btn-sm">Edit</a>
+</div>
+
+<div class="card">
+    <table class="ledger">
+        <tbody>
+            <tr><td class="mono muted">Email</td><td>@Model.Email</td></tr>
+            <tr><td class="mono muted">Courses enrolled</td><td>@Model.EnrolledCourses.Count</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="card">
+    <h3>Enrolled courses</h3>
+    @if (!courses.Any())
+    {
+        <p class="muted">Not enrolled in anything yet. <a asp-controller="Courses" asp-action="Index">Browse the catalog</a>.</p>
+    }
+    else
+    {
+        <table class="ledger">
+            <thead><tr><th>Course</th><th>Title</th><th>Instructor</th></tr></thead>
+            <tbody>
+            @foreach (var c in courses)
+            {
+                <tr>
+                    <td><span class="tab-chip">@c.Department@c.CourseCode</span></td>
+                    <td><a asp-controller="Courses" asp-action="Details" asp-route-department="@c.Department" asp-route-courseCode="@c.CourseCode">@c.CourseName</a></td>
+                    <td>@c.InstructorName</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    }
+</div>

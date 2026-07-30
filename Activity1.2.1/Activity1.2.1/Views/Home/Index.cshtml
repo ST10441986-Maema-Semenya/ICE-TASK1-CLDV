@@ -1,0 +1,60 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+<div class="hero">
+    <div class="hero-text">
+        <h1>Welcome to the Course Enrolment Ledger</h1>
+        <p class="muted">Browse the catalog, manage rosters, and process enrolment requests — course and student records live in Azure Table Storage; enrolments are queued through Azure Queue Storage and applied by a background worker.</p>
+        <div class="form-actions">
+            <div class="hero-image">
+                <img src="Campus.jpg" alt="Illustration of the registrar's hall" />
+            </div>
+            <a asp-controller="Courses" asp-action="Index" class="btn">Browse courses</a>
+            <a asp-controller="Students" asp-action="Create" class="btn btn-outline">Register a student</a>
+        </div>
+    </div>    
+</div>
+
+<div class="stat-row">
+    <div class="stat">
+        <div class="stat-value">@ViewBag.CourseCount</div>
+        <div class="stat-label">Courses listed</div>
+    </div>
+    <div class="stat">
+        <div class="stat-value">@ViewBag.StudentCount</div>
+        <div class="stat-label">Students registered</div>
+    </div>
+    <div class="stat">
+        <div class="stat-value">@ViewBag.OpenSeats</div>
+        <div class="stat-label">Open seats total</div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="text-muted small">Catalog</div>
+                    <h3 class="card-title">Courses</h3>
+                    <p class="card-text">Browse the full course list, see open seats, and add new offerings.</p>
+                    <a href="/Courses" class="btn btn-link mt-auto ms-auto">Open catalog</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body d-flex flex-column">
+                    <div class="text-muted small">Registry</div>
+                    <h3 class="card-title">Students</h3>
+                    <p class="card-text">Look up a student's record and see everything they're enrolled in.</p>
+                    <a href="/Students" class="btn btn-link mt-auto ms-auto">Open registry</a>
+                </div>
+            </div>
+        
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Error";
+}
+<div class="page-heading">
+    <div>
+        <div class="eyebrow">Something went wrong</div>
+        <h1>An error occurred</h1>
+    </div>
+</div>
+<div class="card">
+    <p>The request could not be completed. If this keeps happening, check that the Azure Table and Queue storage connection strings in <span class="mono">appsettings.json</span> are correct and that the storage accounts are reachable.</p>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-outline">Back to dashboard</a>
+</div>

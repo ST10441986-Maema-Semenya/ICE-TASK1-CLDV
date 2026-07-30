@@ -1,0 +1,54 @@
+@model CourseFormViewModel
+@{
+    ViewData["Title"] = "Add course";
+}
+<div class="page-heading">
+    <div>
+        <div class="eyebrow">Catalog</div>
+        <h1>Add a course</h1>
+    </div>
+</div>
+
+<div class="card">
+    <form asp-action="Create" method="post" class="form-grid">
+        <div asp-validation-summary="ModelOnly" class="error"></div>
+        <div class="field">
+            <label asp-for="Department"></label>
+            <input asp-for="Department" placeholder="e.g. CS" />
+            <span asp-validation-for="Department" class="error"></span>
+        </div>
+        <div class="field">
+            <label asp-for="CourseCode"></label>
+            <input asp-for="CourseCode" placeholder="e.g. CS101" />
+            <span asp-validation-for="CourseCode" class="error"></span>
+        </div>
+        <div class="field">
+            <label asp-for="CourseName"></label>
+            <input asp-for="CourseName" placeholder="e.g. Intro to Programming" />
+            <span asp-validation-for="CourseName" class="error"></span>
+        </div>
+        <div class="field">
+            <label asp-for="InstructorId"></label>
+            <input asp-for="InstructorId" placeholder="e.g. I001" />
+            <span asp-validation-for="InstructorId" class="error"></span>
+        </div>
+        <div class="field">
+            <label asp-for="InstructorName"></label>
+            <input asp-for="InstructorName" placeholder="e.g. Dr. Smith" />
+            <span asp-validation-for="InstructorName" class="error"></span>
+        </div>
+        <div class="field">
+            <label asp-for="Description"></label>
+            <textarea asp-for="Description" rows="3"></textarea>
+        </div>
+        <div class="field">
+            <label asp-for="Capacity"></label>
+            <input asp-for="Capacity" type="number" min="1" />
+            <span asp-validation-for="Capacity" class="error"></span>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn">Create course</button>
+            <a asp-action="Index" class="btn btn-outline">Cancel</a>
+        </div>
+    </form>
+</div>
